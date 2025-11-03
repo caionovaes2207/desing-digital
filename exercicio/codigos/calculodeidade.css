@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg, #752922, #802424);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+input {
+    width: 80%;
+    padding: 8px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #9a2e2e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #621616;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.botao {
+    position: absolute; 
+    top: 20px;
+    left: 20px;
+    background-color: #fff;
+    color: #000000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.botao:hover {
+    background-color: #ffffff;
+}
+
+.img {
+    width: 100px;          /* tamanho pequeno */
+    height: auto;          /* mantém proporção */
+    position: absolute;    /* fixa no canto */
+    top: 20px;             /* distância do topo */
+    right: 20px;           /* distância da direita */
+    border-radius: 10px;   /* bordas arredondadas */
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3); /* sombra suave */
+    transition: transform 0.3s ease;
+}
+
+.img:hover {
+    transform: scale(1.05); /* pequeno zoom ao passar o mouse */
+}
